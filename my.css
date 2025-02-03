@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.Quicksand{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+/*   shard style  */
+.display-flex{
+    display: flex;
+}
+
+.header-text-coler{
+    color: rgb(17, 17, 17);
+    
+}
+.nav-item{
+    list-style: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+   
+    
+}
+
+
+
+
+/* Nav-bar*/
+
+
+.nav-bar{
+    justify-content:space-between;
+}
+.nav-img{
+    width: 62px;
+    height: 62px;
+}
+.header{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    text-align: left;
+    margin: 10px;
+}
+.nav-heder{
+    display: none;
+}
+
+.nav-primary{
+    margin: 0 30px;
+}
+.nav-color-1{
+    color: rgb(254, 163, 1);
+} 
+.nav-color-2{
+    color: rgb(1, 172, 253);
+}
+.nav-color-3{
+    color: rgb(5, 212, 223);
+}
+.nav-color-4{
+    color: rgb(93, 88, 239);
+} 
+
+.link{
+    text-decoration: none;
+   
+}
+.btn-nav{
+    background-color:rgb(254, 163, 1) ;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+}
+
+
+
+@media screen and (min-width: 576px) {
+    .nav-heder{
+        display: flex;
+    }
+
+} 
