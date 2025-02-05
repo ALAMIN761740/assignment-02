@@ -15,7 +15,7 @@
     display: flex;
 }
 
-.header-text-coler{
+.header-text-color{
     color: rgb(17, 17, 17);
     
 }
@@ -27,6 +27,53 @@
     
 }
 
+.black-btn{
+    background: rgb(17, 17, 17);
+    
+    border-radius: 8px;
+    width:200px;
+    height: 50px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 700;
+    border: none;
+}
+.white-btn{
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card-img{
+    padding: 20px;
+}
+.card-story{
+    width: 300px;
+    height: 300px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.card-story-img{
+    width: 300px;
+    
+}
+
+.story-all-btn{
+    width: 174.51px;
+    height: 38.35px;
+    font-size: 15.34px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    transform: translate(15%, -50%);
+    border-radius: 47px;
+    border: none;
+    background: rgb(149, 178, 38);
+}
+
+
 
 
 
@@ -35,6 +82,7 @@
 
 .nav-bar{
     justify-content:space-between;
+    align-items: center;
 }
 .nav-img{
     width: 62px;
@@ -47,9 +95,7 @@
     text-align: left;
     margin: 10px;
 }
-.nav-heder{
-    display: none;
-}
+
 
 .nav-primary{
     margin: 0 30px;
@@ -82,12 +128,327 @@
     border: none;
     border-radius: 8px;
 }
+.dot-3{
+    
+    display: none;
+}
 
 
 
-@media screen and (min-width: 576px) {
-    .nav-heder{
-        display: flex;
+
+/*................main-header.......................*/
+
+.main-header-title{
+    font-size: 60px;
+    font-weight: 700;
+}
+.header-description{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgb(17, 17, 17);;
+}
+.hero-kids-img{
+    width: 100%;
+    height: 575px;
+    margin: 0px 50px;
+}
+
+
+
+
+
+
+/*  card-3*/
+.card-3{
+    background-image:url(assets/bg.png);
+}
+.cards{
+    text-align: center;
+    justify-content: center;
+    gap: 25px;
+    margin: 30px;
+    
+
+}
+.card-title{
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.cards-1{
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 245, 255);
+    border-radius: 1.25rem;
+    box-shadow: inset 0px 0px 30px 1px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+}
+.cards-2{
+    border-radius: 1.25rem;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 244, 220);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    box-shadow: inset 0px 0px 30px 1px rgba(0, 0, 0, 0.05);
+    
+}
+.cards-3{
+    border-radius: 1.25rem;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    border: 1px solid rgb(242, 232, 255);
+
+}
+.card-text{
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+/*         arrows*/
+.arrows{
+    
+    
+    justify-content: center;
+    gap: 20px;
+    
+}
+.arrow-1{
+    background-color: #FEA301;
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+}
+.arrow-2{
+    background-color: #FEA301;
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+
+
+
+/*.......................story-section...............*/
+.story-bg-color{
+    background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    
+    
+    
+    
+}
+
+
+
+.story-1{
+    border-radius: 16px;
+    margin: 20px;
+    background: rgb(255, 255, 255);
+    width: 540px;
+    height: 630px;
+
+    
+}
+.story-1-img{
+    width: 540px;
+    height: auto;
+    border-radius: 16px 16px 0px 0px;
+    background: url(),rgb(217, 217, 217);
+
+}
+.btn-November{
+    border-radius: 47rem;
+    background: rgb(60, 216, 232);
+    width: 200px;
+    height:auto;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    transform: translate(15%, -50%);
+    
+    
+}
+.story-1-title{
+    font-size: 24px;
+    font-weight: 700;
+    align-items: center;
+    padding: 0px 25px;
+}
+.story-1-text{
+    color: rgb(102, 102, 102);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0px 25px;
+
+}
+.end{
+    
+    justify-content: center;
+    align-items: center;
+}
+.btn-new{
+    
+    display: block;
+    margin: 0 auto;
+}
+
+.display-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.story-all-4{
+    width: 300px;
+    height: auto;
+    border-radius: 16px;
+    margin: 10px;
+    background: rgb(255, 255, 255);
+}
+.story-all-img{
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+.story-all-font{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 5px;
+}
+
+
+
+
+
+
+/*    footer*/
+footer{
+    width: 100%;
+    background: rgb(1, 172, 253);
+    justify-content: center;
+
+}
+.footer-gap{
+    
+    justify-content: space-around;
+}
+.footer-Bag{
+    padding: 20px;
+}
+
+.footer-img{
+    width: 80px;
+    height: 80px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.Kids-Education{
+    font-size: 2.62rem ;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+}
+.Kids-Education-description{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+
+   
+.links-item{
+    list-style: none; 
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0px ;
+    
+}
+.footer-about{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .nav-item,
+     .btn-nav,
+    .header,
+    .arrows,
+    .story-1{
+        display: none;
     }
+    .cards,
+    .hi-footer {
+        flex-direction: column;
+    }
+    .main-header{
+        flex-direction: column-reverse;
+    }
+    .mobiles{
+        
+        justify-content: center;
+        text-align: center;
+    }
+    
+
+    .dot-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        
+    }
+    .nav-heder{
+        padding: 10px;
+        border: 2px solid #FEA301;
+    }
+    .story-all-4{
+        width: 95%;
+        margin: 10px;
+        
+    }
+    .story-all-btn{
+        width: 65%;
+    }
+    
+    
+
+    
+
+    
 
 } 
+
